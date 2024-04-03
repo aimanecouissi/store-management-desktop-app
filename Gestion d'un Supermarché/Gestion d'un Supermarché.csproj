@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDBEEC3B-EF3E-4897-9054-36E3AAC28DB5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestion_d_un_Supermarché</RootNamespace>
+    <AssemblyName>Gestion d%27un Supermarché</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Application.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Gestion_d_un_Supermarché.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelLibrary">
+      <HintPath>..\..\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connexion.Designer.cs">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultationClient.Designer.cs">
+      <DependentUpon>ConsultationClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MajClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MajClient.Designer.cs">
+      <DependentUpon>MajClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultationCommande.Designer.cs">
+      <DependentUpon>ConsultationCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MajCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MajCommande.Designer.cs">
+      <DependentUpon>MajCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuExportationHTML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuExportationHTML.Designer.cs">
+      <DependentUpon>MenuExportationHTML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotPasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotPasse.Designer.cs">
+      <DependentUpon>MotPasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outils.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RechercheCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheCommande.Designer.cs">
+      <DependentUpon>RechercheCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultationEmploye.Designer.cs">
+      <DependentUpon>ConsultationEmploye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MajEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MajEmploye.Designer.cs">
+      <DependentUpon>MajEmploye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RechercheEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheEmploye.Designer.cs">
+      <DependentUpon>RechercheEmploye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graphique.Designer.cs">
+      <DependentUpon>Graphique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuConsultationTableau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuConsultationTableau.Designer.cs">
+      <DependentUpon>MenuConsultationTableau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuConsultationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuConsultationType.Designer.cs">
+      <DependentUpon>MenuConsultationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuExportationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuExportationType.Designer.cs">
+      <DependentUpon>MenuExportationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuExportationXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuExportationXML.Designer.cs">
+      <DependentUpon>MenuExportationXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuMaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuMaj.Designer.cs">
+      <DependentUpon>MenuMaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuParametres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuParametres.Designer.cs">
+      <DependentUpon>MenuParametres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipale.Designer.cs">
+      <DependentUpon>MenuPrincipale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuRecherche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuRecherche.Designer.cs">
+      <DependentUpon>MenuRecherche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serveur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serveur.Designer.cs">
+      <DependentUpon>Serveur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultationProduit.Designer.cs">
+      <DependentUpon>ConsultationProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MajProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MajProduit.Designer.cs">
+      <DependentUpon>MajProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RechercheProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheProduit.Designer.cs">
+      <DependentUpon>RechercheProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RechercheClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheClient.Designer.cs">
+      <DependentUpon>RechercheClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connexion.resx">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultationClient.resx">
+      <DependentUpon>ConsultationClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MajClient.resx">
+      <DependentUpon>MajClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultationCommande.resx">
+      <DependentUpon>ConsultationCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MajCommande.resx">
+      <DependentUpon>MajCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuExportationHTML.resx">
+      <DependentUpon>MenuExportationHTML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotPasse.resx">
+      <DependentUpon>MotPasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RechercheCommande.resx">
+      <DependentUpon>RechercheCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultationEmploye.resx">
+      <DependentUpon>ConsultationEmploye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MajEmploye.resx">
+      <DependentUpon>MajEmploye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RechercheEmploye.resx">
+      <DependentUpon>RechercheEmploye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphique.resx">
+      <DependentUpon>Graphique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuConsultationTableau.resx">
+      <DependentUpon>MenuConsultationTableau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuConsultationType.resx">
+      <DependentUpon>MenuConsultationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuExportationType.resx">
+      <DependentUpon>MenuExportationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuExportationXML.resx">
+      <DependentUpon>MenuExportationXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuMaj.resx">
+      <DependentUpon>MenuMaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuParametres.resx">
+      <DependentUpon>MenuParametres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipale.resx">
+      <DependentUpon>MenuPrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuRecherche.resx">
+      <DependentUpon>MenuRecherche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serveur.resx">
+      <DependentUpon>Serveur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultationProduit.resx">
+      <DependentUpon>ConsultationProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MajProduit.resx">
+      <DependentUpon>MajProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RechercheProduit.resx">
+      <DependentUpon>RechercheProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RechercheClient.resx">
+      <DependentUpon>RechercheClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Application.ico" />
+    <None Include="Resources\XMLEnterSombre.png" />
+    <None Include="Resources\XMLLeaveSombre.png" />
+    <None Include="Resources\TableauEnterSombre.png" />
+    <None Include="Resources\TableauLeaveSombre.png" />
+    <None Include="Resources\ServeurEnterSombre.png" />
+    <None Include="Resources\ServeurLeaveSombre.png" />
+    <None Include="Resources\MDPEnterSombre.png" />
+    <None Include="Resources\MDPLeaveSombre.png" />
+    <None Include="Resources\HTMLLeaveSombre.png" />
+    <None Include="Resources\HTMLEnterSombre.png" />
+    <None Include="Resources\GraphiqueLeaveSombre.png" />
+    <None Include="Resources\GraphiqueEnterSombre.png" />
+    <None Include="Resources\DéconnecterLeaveSombre.png" />
+    <None Include="Resources\DéconnecterEnterSombre.png" />
+    <None Include="Resources\ClairLeave.png" />
+    <None Include="Resources\ClairEnter.png" />
+    <None Include="Resources\AboutLeaveSombre.png" />
+    <None Include="Resources\AboutEnterSombre.png" />
+    <None Include="Resources\HTMLLeave.png" />
+    <None Include="Resources\HTMLEnter.png" />
+    <None Include="Resources\MDPLeave.png" />
+    <None Include="Resources\MDPEnter.png" />
+    <None Include="Resources\DéconnecterLeave.png" />
+    <None Include="Resources\DéconnecterEnter.png" />
+    <None Include="Resources\MDPBlanc.png" />
+    <None Include="Resources\MDPNoir.png" />
+    <None Include="Resources\About.png" />
+    <None Include="Resources\RechercherLeaveSombre.png" />
+    <None Include="Resources\SuivantEnterSombre.png" />
+    <None Include="Resources\PremierLeaveSombre.png" />
+    <None Include="Resources\PremierEnterSombre.png" />
+    <None Include="Resources\PrécédentLeaveSombre.png" />
+    <None Include="Resources\PrécédentEnterSombre.png" />
+    <None Include="Resources\SupprimerLeaveSombre.png" />
+    <None Include="Resources\SupprimerEnterSombre.png" />
+    <None Include="Resources\RechercherEnterSombre.png" />
+    <None Include="Resources\ModifierLeaveSombre.png" />
+    <None Include="Resources\ModifierEnterSombre.png" />
+    <None Include="Resources\EffacerLeaveSombre.png" />
+    <None Include="Resources\EffacerEnterSombre.png" />
+    <None Include="Resources\AjouterLeaveSombre.png" />
+    <None Include="Resources\AjouterEnterSombre.png" />
+    <None Include="Resources\DernierLeaveSombre.png" />
+    <None Include="Resources\DernierEnterSombre.png" />
+    <None Include="Resources\SuivantLeaveSombre.png" />
+    <None Include="Resources\AjouterProduitEnter Sombre.png" />
+    <None Include="Resources\AjouterProduitLeave Sombre.png" />
+    <None Include="Resources\AutoBlanc.png" />
+    <None Include="Resources\NuméroBlanc.png" />
+    <None Include="Resources\DateBlanc.png" />
+    <None Include="Resources\CodeBlanc.png" />
+    <None Include="Resources\MarqueBlanc.png" />
+    <None Include="Resources\PrixBlanc.png" />
+    <None Include="Resources\QuantitéBlanc.png" />
+    <None Include="Resources\CategorieBlanc.png" />
+    <None Include="Resources\EmailBlanc.png" />
+    <None Include="Resources\IDBlanc.png" />
+    <None Include="Resources\CINBlanc.png" />
+    <None Include="Resources\SexeBlanc.png" />
+    <None Include="Resources\VilleBlanc.png" />
+    <None Include="Resources\TéléphoneBlanc.png" />
+    <None Include="Resources\AgeBlanc.png" />
+    <None Include="Resources\NomPrénomBlanc.png" />
+    <None Include="Resources\RechercherEnter.png" />
+    <None Include="Resources\ModifierEnter.png" />
+    <None Include="Resources\EffacerEnter.png" />
+    <None Include="Resources\AjouterEnter.png" />
+    <None Include="Resources\SupprimerEnter.png" />
+    <None Include="Resources\AjouterLeave.png" />
+    <None Include="Resources\SupprimerLeave.png" />
+    <None Include="Resources\RechercherLeave.png" />
+    <None Include="Resources\ModifierLeave.png" />
+    <None Include="Resources\EffacerLeave.png" />
+    <None Include="Resources\SuivantEnter.png" />
+    <None Include="Resources\PrécédentEnter.png" />
+    <None Include="Resources\DernierEnter.png" />
+    <None Include="Resources\PremierEnter.png" />
+    <None Include="Resources\SuivantLeave.png" />
+    <None Include="Resources\PremierLeave.png" />
+    <None Include="Resources\PrécédentLeave.png" />
+    <None Include="Resources\DernierLeave.png" />
+    <None Include="Resources\CodeNoir.png" />
+    <None Include="Resources\CINNoir.png" />
+    <None Include="Resources\CategorieNoir.png" />
+    <None Include="Resources\AutoNoir.png" />
+    <None Include="Resources\AgeNoir.png" />
+    <None Include="Resources\VilleNoir.png" />
+    <None Include="Resources\TéléphoneNoir.png" />
+    <None Include="Resources\SexeNoir.png" />
+    <None Include="Resources\QuantitéNoir.png" />
+    <None Include="Resources\PrixNoir.png" />
+    <None Include="Resources\NuméroNoir.png" />
+    <None Include="Resources\NomPrénomNoir.png" />
+    <None Include="Resources\MarqueNoir.png" />
+    <None Include="Resources\IDNoir.png" />
+    <None Include="Resources\EmailNoir.png" />
+    <None Include="Resources\DateNoir.png" />
+    <None Include="Resources\AboutLeave.png" />
+    <None Include="Resources\AboutEnter.png" />
+    <None Include="Resources\ServeurBlanc.png" />
+    <None Include="Resources\ServeurNoir.png" />
+    <None Include="Resources\ProduitLeaveSombre.png" />
+    <None Include="Resources\ProduitEnterSombre.png" />
+    <None Include="Resources\EmployéLeaveSombre.png" />
+    <None Include="Resources\EmployéEnterSombre.png" />
+    <None Include="Resources\CommandeLeaveSombre.png" />
+    <None Include="Resources\CommandeEnterSombre.png" />
+    <None Include="Resources\ClientLeaveSombre.png" />
+    <None Include="Resources\ClientEnterSombre.png" />
+    <None Include="Resources\ProduitLeave.png" />
+    <None Include="Resources\ProduitEnter.png" />
+    <None Include="Resources\EmployéLeave.png" />
+    <None Include="Resources\EmployéEnter.png" />
+    <None Include="Resources\CommandeLeave.png" />
+    <None Include="Resources\CommandeEnter.png" />
+    <None Include="Resources\ClientLeave.png" />
+    <None Include="Resources\ClientEnter.png" />
+    <None Include="Resources\RechercheLeaveSombre.png" />
+    <None Include="Resources\RechercheEnterSombre.png" />
+    <None Include="Resources\ParamètresLeaveSombre.png" />
+    <None Include="Resources\ParamètresEnterSombre.png" />
+    <None Include="Resources\MàjLeaveSombre.png" />
+    <None Include="Resources\MàjEnterSombre.png" />
+    <None Include="Resources\ExportationLeaveSombre.png" />
+    <None Include="Resources\ExportationEnterSombre.png" />
+    <None Include="Resources\ConsultationLeaveSombre.png" />
+    <None Include="Resources\ConsultationEnterSombre.png" />
+    <None Include="Resources\XLSLeaveSombre.png" />
+    <None Include="Resources\XLSEnterSombre.png" />
+    <None Include="Resources\SombreLeave.png" />
+    <None Include="Resources\SombreEnter.png" />
+    <None Include="Resources\ServeurLeave.png" />
+    <None Include="Resources\ServeurEnter.png" />
+    <None Include="Resources\ParamètresLeave.png" />
+    <None Include="Resources\ParamètresEnter.png" />
+    <None Include="Resources\ConsultationEnter.png" />
+    <None Include="Resources\RechercheLeave.png" />
+    <None Include="Resources\RechercheEnter.png" />
+    <None Include="Resources\MàjLeave.png" />
+    <None Include="Resources\MàjEnter.png" />
+    <None Include="Resources\GraphiqueLeave.png" />
+    <None Include="Resources\GraphiqueEnter.png" />
+    <None Include="Resources\ExportationLeave.png" />
+    <None Include="Resources\ExportationEnter.png" />
+    <None Include="Resources\ConsultationLeave.png" />
+    <None Include="Resources\Picture1.png" />
+    <None Include="Resources\XMLLeave.png" />
+    <None Include="Resources\XMLEnter.png" />
+    <None Include="Resources\XLSLeave.png" />
+    <None Include="Resources\XLSEnter.png" />
+    <None Include="Resources\TableauLeave.png" />
+    <None Include="Resources\TableauEnter.png" />
+    <None Include="Resources\AjouterProduitEnter.png" />
+    <None Include="Resources\AjouterProduitLeave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

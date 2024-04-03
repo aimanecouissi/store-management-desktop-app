@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EmployéLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmployéLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClientEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommandeLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommandeLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmployéEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmployéEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClientLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProduitLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProduitLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProduitEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProduitEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommandeEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommandeEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercherLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercherLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SupprimerLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupprimerLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EffacerLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EffacerLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercherEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercherEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SupprimerEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupprimerEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EffacerEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EffacerEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModifierLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModifierLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModifierEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModifierEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercheLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercheLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercheEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercheEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConsultationLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConsultationLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConsultationEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConsultationEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServeurLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServeurLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServeurEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServeurEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExportationLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExportationLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExportationEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExportationEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MàjEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MàjEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MàjLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MàjLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterProduitEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterProduitEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterProduitLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterProduitLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphiqueEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphiqueEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphiqueLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphiqueLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TableauEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TableauEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TableauLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TableauLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XMLEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMLEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XMLLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMLLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClairEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClairEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClairLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClairLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParamètresEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ParamètresEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParamètresLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ParamètresLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SombreEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SombreEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SombreLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SombreLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClientEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClientLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommandeEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommandeEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommandeLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommandeLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConsultationEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConsultationEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConsultationLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConsultationLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmployéEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmployéEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmployéLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmployéLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExportationEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExportationEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExportationLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExportationLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphiqueEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphiqueEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphiqueLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphiqueLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MàjEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MàjEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MàjLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MàjLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParamètresEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ParamètresEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParamètresLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ParamètresLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProduitEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProduitEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProduitLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProduitLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercheEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercheEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercheLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercheLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServeurEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServeurEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServeurLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServeurLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TableauEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TableauEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TableauLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TableauLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XMLEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMLEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XMLLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMLLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServeurBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServeurBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServeurNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServeurNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AgeNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AgeNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AutoNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AutoNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CategorieNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CategorieNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CINNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CINNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CodeNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CodeNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DateNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DateNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DernierEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DernierEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DernierLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DernierLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmailNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmailNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarqueNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarqueNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NomPrénomNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NomPrénomNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NuméroNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NuméroNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PremierEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PremierEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PremierLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PremierLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrixNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrixNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrécédentEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrécédentEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrécédentLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrécédentLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuantitéNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QuantitéNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SexeNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SexeNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SuivantEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SuivantEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SuivantLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SuivantLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TéléphoneNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TéléphoneNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VilleNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VilleNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AgeBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AgeBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CINBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CINBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NomPrénomBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NomPrénomBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SexeBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SexeBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TéléphoneBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TéléphoneBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VilleBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VilleBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterProduitEnter_Sombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterProduitEnter Sombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjouterProduitLeave_Sombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjouterProduitLeave Sombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AutoBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AutoBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CategorieBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CategorieBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CodeBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CodeBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DateBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DateBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DernierEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DernierEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DernierLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DernierLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EffacerEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EffacerEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EffacerLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EffacerLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmailBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmailBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarqueBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarqueBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModifierEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModifierEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModifierLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModifierLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NuméroBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NuméroBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PremierEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PremierEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PremierLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PremierLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrixBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrixBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrécédentEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrécédentEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrécédentLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrécédentLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuantitéBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QuantitéBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercherEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercherEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SuivantEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SuivantEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SuivantLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SuivantLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SupprimerEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupprimerEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SupprimerLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupprimerLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RechercherLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RechercherLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDPBlanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MDPBlanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDPNoir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MDPNoir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DéconnecterEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DéconnecterEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DéconnecterEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DéconnecterEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DéconnecterLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DéconnecterLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DéconnecterLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DéconnecterLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDPEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MDPEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDPEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MDPEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDPLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MDPLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDPLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MDPLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HTMLEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HTMLEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HTMLEnterSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HTMLEnterSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HTMLLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HTMLLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HTMLLeaveSombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HTMLLeaveSombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
