@@ -1,4 +1,4 @@
-<img src="https://socialify.git.ci/aimanecouissi/store-management-desktop-app/image?description=1&descriptionEditable=An%20efficient%20desktop%20application%20developed%20in%20C%23%20and%20SQL%20Server%20for%20managing%20store%20operations.&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Auto" alt="store-management-desktop-app" width="640" height="320" />
+<img src="https://socialify.git.ci/aimanecouissi/store-management-desktop-app/image?description=1&descriptionEditable=An%20efficient%20desktop%20application%20developed%20in%20C%23%20and%20SQL%20Server%20for%20managing%20store%20operations.&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Auto" alt="store-management-desktop-app" />
 
 # Store Management Desktop Application 🛍️
 
