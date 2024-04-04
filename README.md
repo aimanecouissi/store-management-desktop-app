@@ -29,7 +29,7 @@ To run the application locally, follow these steps:
 2. Open the solution file in Visual Studio.
 3. Restore NuGet packages if necessary.
 4. Build the solution.
-5. **Database Setup:**
+5. Database Setup:
    - Make sure you have SQL Server installed and running on your machine.
    - Import the provided SQL file containing the tables definition and preset data to start working.
    - Modify the connection string in the application code to point to your SQL Server instance.
