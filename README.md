@@ -1,17 +1,15 @@
-<img src="https://socialify.git.ci/aimanecouissi/store-management-desktop-app/image?description=1&descriptionEditable=An%20efficient%20desktop%20application%20developed%20in%20C%23%20and%20SQL%20Server%20for%20managing%20store%20operations.&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto" alt="store-management-desktop-app" />
-
-# Store Management Desktop Application
+# STORE MANAGEMENT DESKTOP APPLICATION
 
 Welcome to the Store Management Desktop Application repository! This application was developed as the end-of-training project using C# programming and SQL Server database management. It streamlines and optimizes the daily functions of any store, including inventory management, sales tracking, and customer management.
 
-## Features
+## FEATURES
 
 - **Inventory Management:** Keep track of your store's inventory efficiently.
 - **Sales Tracking:** Monitor sales and revenue easily.
 - **Customer Management:** Maintain a database of customers for improved service.
 - **User-Friendly Interface:** Intuitive design for easy navigation.
 
-## Technologies
+## TECHNOLOGIES
 
 - **C#:** Programming language used for application development.
 - **SQL Server:** Relational database management system utilized for storing application data.
@@ -21,7 +19,7 @@ Welcome to the Store Management Desktop Application repository! This application
 
 Explore the application in action by watching the video demonstration available in [my portfolio](https://www.aimanecouissi.com/). 
 
-## Installation
+## INSTALLATION
 
 To run the application locally, follow these steps:
 
@@ -35,7 +33,7 @@ To run the application locally, follow these steps:
    - Modify the connection string in the application code to point to your SQL Server instance.
 6. Run the application.
 
-## Contributing
+## CONTRIBUTING
 
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
@@ -46,10 +44,10 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 5. Push to the branch (`git push origin feature/my-new-feature`).
 6. Create a new Pull Request.
 
-## License
+## LICENSE
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
+## CONTACT
 
 For any inquiries or feedback, feel free to reach out to me at [contact@aimanecouissi.com](mailto:contact@aimanecouissi.com).
