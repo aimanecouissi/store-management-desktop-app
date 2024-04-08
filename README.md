@@ -15,7 +15,7 @@ Welcome to the Store Management Desktop Application repository! This application
 - **SQL Server:** Relational database management system utilized for storing application data.
 - **Visual Studio:** Integrated development environment (IDE) used for coding and building the application.
 
-## Demo
+## DEMO
 
 Explore the application in action by watching the video demonstration available in [my portfolio](https://www.aimanecouissi.com/). 
 
